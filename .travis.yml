@@ -1,0 +1,27 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  -'12'
+git:
+  depth: 3
+scripts:
+  - yarn test
+notifications:
+  #slack:
+  email:
+      recipients:
+        - chudacontreras@gmail.com
+      on_success: always
+      on_failure: always
+deploy:
+  provider: heroku
+  skip-cleanup: true
+  keep-history: true
+  api-key: 3b55a970-da0b-4ae3-a14c-74d6eaaa0d7d
+  app: app-de-herok
+  on:
+    repo: chudacontreras/platzi-store-backend
+
