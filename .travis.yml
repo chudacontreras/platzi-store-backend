@@ -20,7 +20,8 @@ deploy:
   provider: heroku
   skip-cleanup: true
   keep-history: true
-  api-key: 3b55a970-da0b-4ae3-a14c-74d6eaaa0d7d
+  api-key:
+    secure: "Ip5Pum2vsDRkP070yDnblqMcsCq7pP/bRH4F2tkooEV9vC0SqBiOAAwVZJdhQF+CsmMEbEruSrMql8t99f/retVaq3aYsKkg1lKInNjP2MeCeH5tOonGhFa95G4cFIoqT+4gAh3vQToCHHnWuMOhP3/QjNKOsDDDLLnfF13XtFMZVPNSUCo1QTKnpYmVbjDuQj+7y9IVEmiZjEaSb8XntCAA9GMQX10kJ0CoPDy67ytEc+ytmyfbCE77g41j5gpD+VCZBxZKcBDDbpN+/AjmVtCk9ivTw5FZAr6Jvu2vKflRHeXgJqNtispb5vWL/NpicHxnEhwokQg36gMTGELFaRjs2xWMxVZLbjI20bFhk4GT/BCD3MqVpAhDn8xW8AfKz6hRZ2rHxsZIKK5rTNyZ98pn9eylUgBCZ9rJ10N1bknPKFB6gWKkNUe6qhCSh1SbqJDv2KaVpeq83+d9swSo+bkyox7nJ6dTR5rvYQ+zmIzuuk075T4SZ8CXPaLcA+Nx2O6Wka6rD2aJm3yX0Fopb7Mp+mEqrWxQVwUe6vN3JQvt8jMiWYouD6OWBObQySJuXaQ10vRHN1NWokSG9f5eXLPNx9fOz1PTnFL9eBDm9Nn6o0XFMdGTGCpQ+xA7DLBaUIsXgObjOrW7qum1GbrbIJMxekGv1HWRJScPxkYLNzM="
   app: pltzi-store-app
   on:
     repo: chudacontreras/platzi-store-backend
